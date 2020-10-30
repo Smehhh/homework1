@@ -9,6 +9,7 @@ dependencies {
     implementation "org.apache.httpcomponents:httpclient:$httpClientVersion"
     // Logging
     implementation "ch.qos.logback:logback-classic:$logbackVersion"
+
 }
 
 jar {

@@ -23,7 +23,6 @@ public class WikipediaSearchEngine {
         // 1. сделать запрос в wikipedia, получить результат в формате json.
         final WikipediaClient client = new WikipediaClient();
         final String text = client.search(searchString);
-
         // 2. очистить папку с результатами
         final FileEngine fileEngine = new FileEngine();
         fileEngine.cleanResultDir();
